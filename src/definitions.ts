@@ -1,8 +1,10 @@
+/*
 declare module '@capacitor/core' {
   interface PluginRegistry {
     WavRecorderPlugin: WavRecorderPluginPlugin;
   }
 }
+*/
 
 export type Base64String = string
 
@@ -24,7 +26,7 @@ export interface CurrentRecordingStatus {
 }
 
 
-export interface WavRecorderPluginPlugin {
+export interface WavRecorderPlugin {
   echo(options: { value: string }): Promise<{ value: string }>;
 
   canDeviceVoiceRecord(): Promise<GenericResponse>;

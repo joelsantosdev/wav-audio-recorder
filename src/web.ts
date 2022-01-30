@@ -1,3 +1,7 @@
+/*
+
+DISABLED FOR WEB - NOT REQUIRED FOR THIS PROJECT
+
 import { WebPlugin } from '@capacitor/core';
 import { WavRecorderPluginPlugin } from './definitions';
 
@@ -21,3 +25,5 @@ export { WavRecorderPlugin };
 
 import { registerWebPlugin } from '@capacitor/core';
 registerWebPlugin(WavRecorderPlugin);
+
+*/
